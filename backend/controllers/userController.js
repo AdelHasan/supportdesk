@@ -20,9 +20,9 @@ const registerUser = asyncHandler(async (req, res) => {
 // @access Public
 const loginUser = asyncHandler(async (req, res) => {
   res.send('Login Route')
-}
+})
 
 module.exports = {
   registerUser,
   loginUser,
-})
+}
