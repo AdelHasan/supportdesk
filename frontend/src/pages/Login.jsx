@@ -47,7 +47,6 @@ const Login = () => {
        <section className="form">
         <form onSubmit={onSubmit}>
           
-
           <div className="form-group">
             <input
               type="email"
@@ -72,11 +71,7 @@ const Login = () => {
               placeholder="Password..."
               required
             />
-
-            
           </div>
-
-          
 
           <div className="form-group">
             <button className="btn btn-block">
